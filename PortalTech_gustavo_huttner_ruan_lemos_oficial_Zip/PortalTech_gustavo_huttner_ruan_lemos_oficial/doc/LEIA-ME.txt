@@ -1,0 +1,101 @@
+
+PORTAL TECH
+Projeto acadêmico - Front-End para Web
+
+Alunos: Gustavo huttner, Ruan Lemos
+Instituição: Universidade Positivo
+Ano: 2026
+
+1. SOBRE O PROJETO
+
+O Portal Tech é um site educativo sobre tecnologia
+e desenvolvimento web, criado para colocar em
+prática os conhecimentos estudados na disciplina
+de Front-End para Web.
+
+2. PÁGINAS DO SITE
+
+O projeto possui 10 páginas:
+
+- index.html - Página inicial
+- noticias.html - Notícias
+- artigos.html - Artigos
+- tutoriais.html - Tutoriais
+- galeria.html - Galeria de imagens
+- videos.html - Vídeos
+- podcast.html - Podcast
+- agenda.html - Agenda de estudos
+- sobre.html - Sobre o projeto
+- contato.html - Formulário de contato
+
+3. TECNOLOGIAS UTILIZADAS
+
+- HTML5
+- CSS3
+- JavaScript
+- CSS Grid e Flexbox
+- Bootstrap 5 (arquivos locais)
+- localStorage
+
+4. RECURSOS DO SITE
+
+- Navegação entre 10 páginas
+- Layout responsivo
+- Galeria com 6 imagens
+- Reprodução de vídeo MP4
+- Reprodução de podcast MP3
+- Tabela de agenda
+- Campos de pesquisa de conteúdos
+- Formulário com validação
+- Armazenamento local de mensagens
+
+5. ORGANIZAÇÃO DAS PASTAS
+
+css/ - Arquivos de estilos
+js/ - Arquivos JavaScript
+img/ - Imagens da galeria
+audio/ - Arquivo podcast.mp3
+video/ - Arquivo aula.mp4
+doc/ - Relatório acadêmico e LEIA-ME
+
+6. COMO ABRIR O SITE
+
+1. Extraia a pasta PortalTech, caso esteja em ZIP.
+2. Abra a pasta PortalTech.
+3. Dê dois cliques no arquivo index.html.
+4. O site será aberto no navegador.
+5. Utilize o menu para acessar as demais páginas.
+
+O projeto utiliza arquivos locais para os principais
+recursos, permitindo sua execução sem depender
+de uma conexão com a internet.
+
+O link externo para a documentação MDN
+necessita de internet.
+
+7. TESTES
+
+Foram testados:
+- Reprodução do vídeo no site
+- Reprodução do podcast no site
+- Envio de mensagem pelo formulário
+- Persistência das mensagens após atualizar a página
+
+Recomenda-se verificar também a navegação,
+a pesquisa e a adaptação a diferentes telas.
+
+8. DOCUMENTAÇÃO
+
+O relatório acadêmico está disponível em:
+
+doc/relatorio_portaltech.docx
+
+9. OBSERVAÇÕES
+
+O formulário salva mensagens apenas no navegador
+utilizado, por meio do localStorage.
+
+As mensagens não são enviadas por e-mail
+nem armazenadas em um servidor.
+
+Projeto desenvolvido para fins acadêmicos.

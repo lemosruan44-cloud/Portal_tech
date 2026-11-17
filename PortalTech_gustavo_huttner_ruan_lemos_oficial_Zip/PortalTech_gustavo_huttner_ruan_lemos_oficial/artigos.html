@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artigos sobre tecnologia, HTML e segurança digital.">
+    <title>Artigos | Portal Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <span class="logo">Portal Tech</span>
+            <span>Informação e aprendizado</span>
+            <button class="menu-toggle" id="menuButton"
+                    type="button" aria-expanded="false"
+                    aria-controls="menu">
+                ☰ Menu
+            </button>
+        </div>
+    </header>
+
+    <nav id="menu" aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="artigos.html" aria-current="page">Artigos</a>
+        <a href="tutoriais.html">Tutoriais</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="videos.html">Vídeos</a>
+        <a href="podcast.html">Podcast</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="https://developer.mozilla.org/pt-BR/"
+           target="_blank" rel="noopener noreferrer">MDN ↗</a>
+    </nav>
+
+    <main class="wrap">
+        <section class="panel">
+            <h1>Artigos de Tecnologia</h1>
+
+            <p>
+                Explore conteúdos sobre desenvolvimento web,
+                inovação e segurança digital. Aprenda conceitos
+                importantes para começar na área de tecnologia.
+            </p>
+
+            <label for="search">Pesquisar artigos</label>
+            <input type="search" id="search"
+                   placeholder="Digite HTML, tecnologia ou segurança">
+
+            <div class="gallery">
+
+                <article class="card" data-search>
+                    <img src="img/foto1.svg"
+                         alt="Ilustração sobre tecnologia">
+
+                    <h2>Novidades da Tecnologia</h2>
+
+                    <p>
+                        Conheça tendências tecnológicas e entenda
+                        como elas estão transformando nosso cotidiano.
+                    </p>
+
+                    <a href="#artigo-tecnologia">Ler mais</a>
+                </article>
+
+                <article class="card" data-search>
+                    <img src="img/foto2.svg"
+                         alt="Ilustração sobre programação">
+
+                    <h2>Aprendendo HTML</h2>
+
+                    <p>
+                        Descubra como o HTML organiza textos,
+                        imagens, links e outros elementos
+                        de uma página web.
+                    </p>
+
+                    <a href="#artigo-html">Ler mais</a>
+                </article>
+
+                <article class="card" data-search>
+                    <img src="img/foto3.svg"
+                         alt="Ilustração sobre segurança digital">
+
+                    <h2>Dicas de Segurança Digital</h2>
+
+                    <p>
+                        Aprenda cuidados importantes para proteger
+                        suas contas e informações na internet.
+                    </p>
+
+                    <a href="#artigo-seguranca">Ler mais</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel" id="artigo-tecnologia">
+            <h2>Novidades da Tecnologia</h2>
+
+            <p>
+                A tecnologia está presente em diferentes áreas,
+                como educação, saúde, comunicação e transporte.
+                Novas ferramentas digitais surgem para facilitar
+                atividades e melhorar o acesso à informação.
+            </p>
+
+            <p>
+                Entre as tecnologias que recebem destaque estão
+                a inteligência artificial, a computação em nuvem
+                e a automação de processos.
+            </p>
+
+            <p>
+                Para quem deseja trabalhar com tecnologia,
+                acompanhar essas mudanças e desenvolver
+                novas habilidades é muito importante.
+            </p>
+
+            <a href="#menu">Voltar ao menu</a>
+        </section>
+
+        <section class="panel" id="artigo-html">
+            <h2>Aprendendo HTML</h2>
+
+            <p>
+                HTML significa HyperText Markup Language,
+                ou Linguagem de Marcação de Hipertexto.
+                É utilizado para organizar a estrutura
+                das páginas na internet.
+            </p>
+
+            <p>
+                Com HTML, podemos criar títulos, parágrafos,
+                imagens, listas, tabelas, formulários e links.
+                Cada elemento utiliza uma marcação específica.
+            </p>
+
+            <p>
+                O HTML trabalha em conjunto com o CSS,
+                responsável pela aparência visual,
+                e com o JavaScript, utilizado para adicionar
+                interatividade às páginas.
+            </p>
+
+            <a href="tutoriais.html">Ver tutoriais</a>
+        </section>
+
+        <section class="panel" id="artigo-seguranca">
+            <h2>Dicas de Segurança Digital</h2>
+
+            <p>
+                A segurança digital envolve práticas que ajudam
+                a proteger informações pessoais, dispositivos
+                e contas utilizadas na internet.
+            </p>
+
+            <h3>Cuidados importantes</h3>
+
+            <ul>
+                <li>Utilize senhas fortes e diferentes para cada conta.</li>
+                <li>Ative a autenticação em duas etapas quando disponível.</li>
+                <li>Evite clicar em links de origem desconhecida.</li>
+                <li>Mantenha programas e dispositivos atualizados.</li>
+                <li>Não compartilhe informações pessoais sem necessidade.</li>
+            </ul>
+
+            <p>
+                Esses cuidados ajudam a reduzir riscos de golpes,
+                invasões e exposição de dados.
+            </p>
+
+            <a href="#menu">Voltar ao menu</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portal Tech | Projeto acadêmico de Front-End</p>
+        <small>© 2026</small>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
